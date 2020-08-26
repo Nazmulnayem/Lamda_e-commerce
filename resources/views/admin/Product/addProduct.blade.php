@@ -17,26 +17,27 @@
                         <div class="form-group align-self-center">
                             <label class="control-label col-md-4">Category Name </label>
                             <div class="col-md-10">
-                               <select class="form-control" name="category_id">
-                                   <option>---Select--CategoryName---
+                               <select class="form-control" name="category_id" required>
+                                   <option value="">---Select--CategoryName---</option>
                                    @foreach($categories as $category)
                                    <option value="{{$category->id}}">{{$category->category_name}}</option>
                                    @endforeach
+                                   <span class="text-danger">{{$errors->has('category_id') ? $errors->first('category_id') : ''}}</span>
                                </select>
-                                <span class="text-danger">{{$errors->has('category_name') ? $errors->first('category_name') : ''}}</span>
+
                             </div>
                         </div>
                         <div class="form-group align-self-center">
                             <label class="control-label col-md-4">Sub Category Name</label>
                             <div class="col-md-10">
 
-                                <select class="form-control" name="sub_category_id">
-                                    <option>---Select--Sub_category_Name---</option>
+                                <select class="form-control" name="sub_category_id" required>
+                                    <option value="">---Select--Sub_category_Name---</option>
                                     @foreach($subcategories as $subcategory)
                                         <option value="{{$subcategory->id}}">{{$subcategory->sub_category_name}}</option>
                                     @endforeach
                                 </select>
-                                <span class="text-danger">{{$errors->has('sub_category_name') ? $errors->first('sub_category_name') : ''}}</span>
+                                <span class="text-danger">{{$errors->has('sub_category_id') ? $errors->first('sub_category_id') : ''}}</span>
                             </div>
                         </div>
 
@@ -44,13 +45,13 @@
                                 <label class="control-label col-md-4">Brand Name </label>
                                 <div class="col-md-10">
 
-                                    <select class="form-control" name="brand_id">
-                                        <option>---Select--BrandName---</option>
+                                    <select class="form-control" name="brand_id" required>
+                                        <option value="">---Select--BrandName---</option>
                                         @foreach($brands as $brand)
                                             <option value="{{$brand->id}}">{{$brand->brand_name}}</option>
                                         @endforeach
                                     </select>
-                                    <span class="text-danger">{{$errors->has('brand_name') ? $errors->first('brand_name') : ''}}</span>
+                                    <span class="text-danger">{{$errors->has('brand_id') ? $errors->first('brand_id') : ''}}</span>
                                 </div>
                             </div>
 
@@ -88,7 +89,7 @@
                             <div class="form-group">
                                 <label class="control-label col-md-4">Long Description </label>
                                 <div class="col-md-10">
-                                    <textarea class="form-control" id="editor" name="long_description"></textarea>
+                                    <textarea class="form-control"  name="long_description"></textarea>
                                     <span class="text-danger">{{$errors->has('long_description') ? $errors->first('long_description') : ''}}</span>
 
                                 </div>

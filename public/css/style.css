@@ -77,7 +77,7 @@ body{
 }
 .heder-bottom {
     padding: 1em 0;
-	background: #636b6f;
+    background: linear-gradient(to left,#ffb31a 0%,#0000ff 100%);
 }
 .logo-nav-left{
 	float:left;

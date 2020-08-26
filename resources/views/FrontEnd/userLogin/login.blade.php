@@ -16,25 +16,22 @@
         <div class="login">
             <div class="main-agileits">
                 <div class="form-w3agile">
-                    <h3>Login To New Shop</h3>
-                    <form action="#" method="post">
-                        <div class="key">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <input  type="text" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="key">
-                            <i class="fa fa-lock" aria-hidden="true"></i>
-                            <input  type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
-                            <div class="clearfix"></div>
-                        </div>
-                        <input type="submit" value="Login">
-                    </form>
+                    <h3>Login</h3>
+                    {{Form::open()}}
+                    <div class="form-group">
+                        <label>Email ID</label>
+                        <input class="form-control" placeholder="Email" type="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input class="form-control" placeholder="Password" type="password" name="password">
+                    </div>
+                    <button class="btn btn-primary pull-right">Login</button>
+                    {{Form::close()}}
                 </div>
                 <div class="forg">
-                    <a href="#" class="forg-left">Forgot Password</a>
-                    <a href="registered.html" class="forg-right">Register</a>
-                    <div class="clearfix"></div>
+
+                    <a href="{{route('Customer-register')}}">Not Signed In?</a>
                 </div>
             </div>
         </div>

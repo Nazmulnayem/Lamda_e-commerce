@@ -6,7 +6,7 @@
             </div>
             <div class="top-right">
                 <ul>
-                    <li><a href="{{route('Checkout')}}">Checkout</a></li>
+
                     <li><a href="{{route('Customer-login')}}">Login</a></li>
                     <li><a href="{{route('Customer-register')}}"> Create Account </a></li>
                 </ul>

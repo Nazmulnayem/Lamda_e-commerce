@@ -42,14 +42,18 @@
                                 <div class="description">
                                     <p><span>Quick Overview : </span> {{$product->short_description}}</p>
                                 </div>
+                                {{Form::open(['route'=>'add-to-cart','method'=>'GET'])}}
                                 <div class="color-quality">
                                     <h6>Quality :</h6>
                                     <div class="quantity">
-                                        <div class="quantity-select">
-                                            <div class="entry value-minus1">&nbsp;</div>
-                                            <div class="entry value1"><span>{{$product->product_quantity}}</span></div>
-                                            <div class="entry value-plus1 active">&nbsp;</div>
-                                        </div>
+                                        <input type="number" name="qty" value="1" min="1"/>
+                                       <select name="size">
+                                           <option value="XL">XL</option>
+                                           <option value="L">L</option>
+                                           <option value="M">M</option>
+                                       </select>
+                                        <input type="hidden" name="id" value="{{$product->id}}"/>
+
                                     </div>
                                     <!--quantity-->
                                     <script>
@@ -65,10 +69,13 @@
                                     </script>
                                     <!--quantity-->
                                 </div>
+
                                 <div class="women">
                                     <span class="size">XL / XXL / S </span>
-                                    <a href="#" data-text="Add To Cart" class="my-cart-b item_add">Add To Cart</a>
+
+                                    <input type="submit" name="btn" value="Add To Cart"  class="my-cart-b item_add"/>
                                 </div>
+                                {{Form::close()}}
                                 <div class="social-icon">
                                     <a href="#"><i class="icon"></i></a>
                                     <a href="#"><i class="icon1"></i></a>
@@ -79,63 +86,65 @@
                             <div class="clearfix"> </div>
                         </div>
                     </div>
+
                     <div class="col-md-3 single-grid1">
-                        <h3>Recent Products</h3>
-                        <div class="recent-grids">
-                            <div class="recent-left">
-                                <a href="single.html"><img class="img-responsive " src="images/r.jpg" alt=""></a>
-                            </div>
-                            <div class="recent-right">
-                                <h6 class="best2"><a href="single.html">Lorem ipsum dolor </a></h6>
-                                <div class="block">
-                                    <div class="starbox small ghosting"> </div>
-                                </div>
-                                <span class=" price-in1"> $ 29.00</span>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                        <div class="recent-grids">
-                            <div class="recent-left">
-                                <a href="single.html"><img class="img-responsive " src="images/r1.jpg" alt=""></a>
-                            </div>
-                            <div class="recent-right">
-                                <h6 class="best2"><a href="single.html">Duis aute irure </a></h6>
-                                <div class="block">
-                                    <div class="starbox small ghosting"> </div>
-                                </div>
-                                <span class=" price-in1"> $ 19.00</span>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                        <div class="recent-grids">
-                            <div class="recent-left">
-                                <a href="single.html"><img class="img-responsive " src="images/r2.jpg" alt=""></a>
-                            </div>
-                            <div class="recent-right">
-                                <h6 class="best2"><a href="single.html">Lorem ipsum dolor </a></h6>
-                                <div class="block">
-                                    <div class="starbox small ghosting"> </div>
-                                </div>
-                                <span class=" price-in1"> $ 19.00</span>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                        <div class="recent-grids">
-                            <div class="recent-left">
-                                <a href="single.html"><img class="img-responsive " src="images/r3.jpg" alt=""></a>
-                            </div>
-                            <div class="recent-right">
-                                <h6 class="best2"><a href="single.html">Ut enim ad minim </a></h6>
-                                <div class="block">
-                                    <div class="starbox small ghosting"> </div>
-                                </div>
-                                <span class=" price-in1">$ 45.00</span>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
+
+                       <h3>Recent Products</h3>
+                       <div class="recent-grids">
+                           <div class="recent-left">
+                               <a href="single.html"><img class="img-responsive " src="images/r.jpg" alt=""></a>
+                           </div>
+                           <div class="recent-right">
+                               <h6 class="best2"><a href="single.html">Lorem ipsum dolor </a></h6>
+                               <div class="block">
+                                   <div class="starbox small ghosting"> </div>
+                               </div>
+                               <span class=" price-in1"> $ 29.00</span>
+                           </div>
+                           <div class="clearfix"> </div>
+                       </div>
+                       <div class="recent-grids">
+                           <div class="recent-left">
+                               <a href="single.html"><img class="img-responsive " src="images/r1.jpg" alt=""></a>
+                           </div>
+                           <div class="recent-right">
+                               <h6 class="best2"><a href="single.html">Duis aute irure </a></h6>
+                               <div class="block">
+                                   <div class="starbox small ghosting"> </div>
+                               </div>
+                               <span class=" price-in1"> $ 19.00</span>
+                           </div>
+                           <div class="clearfix"> </div>
+                       </div>
+                       <div class="recent-grids">
+                           <div class="recent-left">
+                               <a href="single.html"><img class="img-responsive " src="images/r2.jpg" alt=""></a>
+                           </div>
+                           <div class="recent-right">
+                               <h6 class="best2"><a href="single.html">Lorem ipsum dolor </a></h6>
+                               <div class="block">
+                                   <div class="starbox small ghosting"> </div>
+                               </div>
+                               <span class=" price-in1"> $ 19.00</span>
+                           </div>
+                           <div class="clearfix"> </div>
+                       </div>
+                       <div class="recent-grids">
+                           <div class="recent-left">
+                               <a href="single.html"><img class="img-responsive " src="images/r3.jpg" alt=""></a>
+                           </div>
+                           <div class="recent-right">
+                               <h6 class="best2"><a href="single.html">Ut enim ad minim </a></h6>
+                               <div class="block">
+                                   <div class="starbox small ghosting"> </div>
+                               </div>
+                               <span class=" price-in1">$ 45.00</span>
+                           </div>
+                           <div class="clearfix"> </div>
+                       </div>
+                   </div>
+                   <div class="clearfix"> </div>
+               </div> -->
                 <!--Product Description-->
                 <div class="product-w3agile">
                     <h3 class="tittle1">Product Description</h3>
@@ -270,7 +279,7 @@
 
                                             </div>
                                         </div>
-                                        <!--
+
                                         <div role="tabpanel" class="tab-pane fade" id="reviews" aria-labelledby="reviews-tab">
                                             <div class="descr">
                                                 <div class="reviews-top">

@@ -13,32 +13,35 @@
         <div class="login">
             <div class="main-agileits">
                 <div class="form-w3agile form1">
-                    <h3>Register</h3>
-                    {{Form::open(['route'=>'customer-sign-up','method'=>'POST'])}}
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                        <tr>
+                            <th> <p class="text-center text-success"> <span> Dear {{Session::get('customername')}} You have to give us a product shipping info to complete you order</span> <br>if your bill info and shipping info save then Click Send order here</p></th>
+
+                        </tr>
+                        </thead>
+                    </table>
+                    <h3>Shipping address here</h3>
+                    {{Form::open(['route'=>'save-shipping','method'=>'post'])}}
                     <div class="form-group">
                         <label>Name</label>
-                        <input class="form-control" placeholder="Name" type="text" name="name">
+                        <input class="form-control" placeholder="Name" type="text" name="name" value="{{$shipping->name}}">
                     </div>
                     <div class="form-group">
                         <label>Phone Number</label>
-                        <input class="form-control" placeholder="Phone" type="text" name="phone_number">
+                        <input class="form-control" placeholder="Phone" type="text" name="phone_number" value="{{$shipping->phone_number}}">
                     </div>
                     <div class="form-group">
                         <label>Email ID</label>
-                        <input class="form-control" placeholder="Email" type="email" name="email">
-                    </div>
-                    <div class="form-group">
-                        <label>Password</label>
-                        <input class="form-control" placeholder="Password" type="password" name="password">
-                        <span class="help-block">Password should be 6 characters long.</span>
+                        <input class="form-control" placeholder="Email" type="email" name="email" value="{{$shipping->email}}">
                     </div>
                     <div class="form-group">
                         <label>Address</label>
                         <textarea name="address" class="form-control" placeholder="address">
-
+                                {{$shipping->address}}
                             </textarea>
                     </div>
-                    <button class="btn btn-primary pull-right">Sign Up</button>
+                    <button class="btn btn-primary pull-right">Order place me here</button>
                     {{Form::close()}}
                 </div>
 

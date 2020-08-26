@@ -18,9 +18,19 @@ use Illuminate\Support\Facades\Route;
     Route::get('/checkout', 'CheckoutController@index')->name('Checkout');
     Route::get('/Customer-login', 'userController@login')->name('Customer-login');
     Route::get('/Customer-register', 'userController@register')->name('Customer-register');
+    Route::post('/customer-sign-up', 'CheckoutController@CustomerSignUp')->name('customer-sign-up');
+    Route::get('/customer-shipping', 'CheckoutController@customershipping')->name('customer-shipping');
+    Route::post('/save-shipping', 'CheckoutController@saveshipping')->name('save-shipping');
+    Route::get('/payment', 'CheckoutController@payment')->name('payment');
+
     Route::get('/category-product/{id}', 'WelcomeController@categoryProduct')->name('category-product');
     Route::get('/product-details/{id}', 'WelcomeController@productDetials')->name('product-details');
     Route::get('/sub-category-product/{category_id}/{id}', 'WelcomeController@subcategoryProduct')->name('sub-category-product');
+    Route::get('/add-to-cart', 'cartController@addToCart')->name('add-to-cart');
+    Route::get('/show-cart', 'cartController@showToCart')->name('show-cart');
+    Route::get('/delete-cart-item/{rowId}', 'cartController@deleteCart')->name('delete-cart-item');
+    Route::post('/update-cart', 'cartController@updateCart')->name('update-cart');
+    Route::get('/add-to-cart-home/{id}/{qty}', 'cartController@addToCarthome')->name('add-to-cart-home');
 
 
 Auth::routes();

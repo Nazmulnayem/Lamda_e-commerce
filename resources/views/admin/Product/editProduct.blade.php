@@ -89,7 +89,7 @@
                         <div class="form-group">
                             <label class="control-label col-md-4">Long Description </label>
                             <div class="col-md-10">
-                                <textarea class="form-control" id="editor" name="long_description">{{$product->long_description}}</textarea>
+                                <textarea class="form-control" name="long_description">{{$product->long_description}}</textarea>
                                 <span class="text-danger">{{$errors->has('long_description') ? $errors->first('long_description') : ''}}</span>
 
                             </div>

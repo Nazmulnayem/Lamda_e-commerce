@@ -117,7 +117,7 @@
                             <h6><a href="{{route('product-details',['id'=>$new_arraival->id])}}">{{$new_arraival->product_name}}</a></h6>
                            <!-- <span class="size">XL / XXL / S </span> -->
                             <p ><del>$100.00</del><em class="item_price">{{$new_arraival->product_price}}</em></p>
-                            <a href="#" data-text="Add To Cart" class="my-cart-b item_add">Add To Cart</a>
+                            <a href="{{route('add-to-cart-home',['id'=>$new_arraival->id,'qty'=>$new_arraival->product_quantity])}}" data-text="Add To Cart" class="my-cart-b item_add">Add To Cart</a>
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                                             <h6><a href="{{route('product-details',['id'=>$new_product->id])}}">{{$new_product->product_name}}</a></h6>
 
                                             <p ><del>$100.00</del><em class="item_price">{{$new_product->product_price}} Tk</em></p>
-                                            <a href="#" data-text="Add To Cart" class="my-cart-b item_add">Add To Cart</a>
+                                            <a href="{{route('add-to-cart-home',['id'=>$new_product->id,'qty'=>$new_product->product_quantity])}}" data-text="Add To Cart" class="my-cart-b item_add">Add To Cart</a>
                                         </div>
                                     </div>
                                 </div>
@@ -207,7 +207,7 @@
                                             <h6><a href="{{route('product-details',['id'=>$new_product->id])}}">{{$new_product->product_name}}</a></h6>
                                             <span class="size">XL / XXL / S </span>
                                             <p ><del>$100.00</del><em class="item_price">{{$new_product->product_price}} Tk</em></p>
-                                            <a href="#" data-text="Add To Cart" class="my-cart-b item_add">Add To Cart</a>
+                                            <a href="{{route('add-to-cart-home',['id'=>$new_product->id,'qty'=>$new_product->product_quantity])}}" data-text="Add To Cart" class="my-cart-b item_add">Add To Cart</a>
                                         </div>
                                     </div>
                                 </div>

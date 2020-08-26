@@ -21,30 +21,68 @@
   <component name="ChangeListManager">
     <list default="true" id="93db43e9-7e2c-4a69-84c0-5decf92f510a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Lamda_e-commerce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/CustomerRegister.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/cartController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/shipping.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_26_053528_create_customer_registers_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_26_094752_create_shippings_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/product-image/Dress3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/product-image/Saree17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/product-image/Shirt17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/product-image/Shirt6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/product-image/Shirt7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/product-image/Shirt8.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/product-image/Shoe1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/product-image/Suit17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/product-image/Suit4.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/product-image/Suit8.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/product-image/Watch16.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/product-image/Watch17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/product-image/dfgd20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/product-image/dfgd4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/product-image/nklm,5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/product-image/shoe10.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/product-image/shoe6.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/product-image/slideimage12.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/product-image/slideimage20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/FrontEnd/Cart/showcart.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/FrontEnd/Mail/confirmation-mail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/FrontEnd/Shipping/payment.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/FrontEnd/Shipping/shipping.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/FrontEnd/Sub-Category/subcategoryProduct.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/admin/Product/editProduct.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/admin/Product/productDetails.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lamda_E-Commerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lamda_E-Commerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lamda_e-commerce/resources/views/FrontEnd/Home/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lamda_e-commerce/resources/views/FrontEnd/Home/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lamda_e-commerce/resources/views/FrontEnd/includes/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lamda_e-commerce/resources/views/FrontEnd/includes/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/slideImageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/slideImageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_18_092547_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_092547_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/ckeditor/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/ckeditor/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/product-image/slideimage18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/product-image/slideimage18.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/product-image/slideimage3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/product-image/slideimage3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/FrontEnd/Category/category-product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/FrontEnd/Category/category-product.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/FrontEnd/Home/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/FrontEnd/Home/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/FrontEnd/Product/productDetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/FrontEnd/Product/productDetails.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/FrontEnd/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/FrontEnd/includes/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/FrontEnd/includes/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/FrontEnd/includes/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/FrontEnd/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/FrontEnd/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/FrontEnd/userLogin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/FrontEnd/userLogin/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/FrontEnd/userLogin/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/FrontEnd/userLogin/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/Product/addProduct.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/Product/addProduct.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/Product/manageProduct.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/Product/manageProduct.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,6 +209,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/olimortimer/laravelshoppingcart" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gAkbsRLiFmSfdtxj4WeWdpCcxR" />
@@ -228,7 +267,14 @@
       <workItem from="1598083487848" duration="14464000" />
       <workItem from="1598157513635" duration="5365000" />
       <workItem from="1598162991241" duration="20596000" />
-      <workItem from="1598244200884" duration="16183000" />
+      <workItem from="1598244200884" duration="16677000" />
+      <workItem from="1598263404597" duration="4361000" />
+      <workItem from="1598329498677" duration="12859000" />
+      <workItem from="1598346121708" duration="1042000" />
+      <workItem from="1598347923430" duration="491000" />
+      <workItem from="1598348522923" duration="8495000" />
+      <workItem from="1598415954473" duration="13777000" />
+      <workItem from="1598430737328" duration="11256000" />
     </task>
     <servers />
   </component>
@@ -259,18 +305,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598165495414" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1597745180488">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598347783304">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597745180488" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598347783304" />
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1597917355793">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1597917355793" />
-    <state x="484" y="66" key="RollbackChangesDialog" timestamp="1597817383822">
+    <state x="484" y="66" key="RollbackChangesDialog" timestamp="1598329692221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="484" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1597817383822" />
+    <state x="484" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598329692221" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598078204326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
